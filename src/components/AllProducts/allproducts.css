@@ -1,0 +1,83 @@
+.titleContainer {
+  width: 1300px;
+  margin: 50px auto;
+}
+
+.titleContainer h1 {
+  margin-left: 10px;
+}
+
+.searchContainer {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1300px;
+  gap: 20px;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: #FFF;
+  border: 1px solid #E6FFFD;
+  border-radius: 16px;
+  padding: 10px;
+  width: 270px;
+  height: 450px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card .cardImg {
+  width: 250px;
+  height: 250px;
+  border-radius: 10px;
+  border: 1px solid #E6FFFD;
+}
+
+.card .cardImg img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  object-fit: fill;
+}
+
+.card .cardInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin-top: 20px;
+  width: 100%;
+  
+}
+
+.cardText {
+  color: #23022C;
+  font-weight: bold;
+}
+
+.cardTitle {
+  font-size: 1.2rem;
+  text-align: center;
+  line-height: 1.2;
+}
+
+.cardButton {
+  width: 200px;
+  height: 40px;
+  border-radius: 40px;
+  background: #E6FFFD;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+.seeMore {
+  color: #23022C;
+}
+
+.titleContainer {
+  color: #23022C;
+}

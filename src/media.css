@@ -1,0 +1,118 @@
+@media (max-width: 440px) {
+  .firstPic {
+    height: 350px !important;
+    width: 350px !important;
+  }
+}
+
+/* Mobile pequeno (até 480px) */
+@media (max-width: 480px) {
+  .productContainer {
+    gap: 100px;
+    margin: 80px 20px !important;
+  }
+}
+
+@media (max-width: 640px) {
+  .firstPic {
+    height: 400px;
+    width: 400px;
+  }
+}
+
+/* Tablets (entre 481px e 768px) */
+@media (max-width: 768px) {
+  .benefits {
+    flex-direction: column;
+    gap: 40px;
+    padding: 40px 0;
+    height: 500px;
+  }
+  .search {
+    width: 75%;
+  }
+  .search-icon {
+    margin-right: 10px;
+  }
+}
+
+@media (max-width: 800px) {
+  .character {
+    display: none;
+  }
+  .contatosContainer {
+    margin-top: 100px;
+  }
+}
+
+/* Laptops e desktops menores (entre 769px e 1024px) */
+@media (max-width: 1024px) {
+  header {
+    flex-direction: column;
+    height: 220px;
+    border-bottom: 20px solid #e6fffd;
+  }
+  nav {
+    display: none;
+  }
+  .header-container {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+
+@media (max-width: 649px) {
+  .searchContainer {
+    width: 300px !important;
+  }
+  .titleContainer h1 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 1023px) {
+  .productContainer {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 1023px) and (min-width: 650px) {
+  .searchContainer {
+    width: 600px !important;
+  }
+}
+
+@media (min-width: 1024px) {
+  .mobileMenu {
+    display: none;
+  }
+
+}
+
+/* Desktops médios (entre 1025px e 1280px) */
+@media (max-width: 1280px) {
+  .footerContainer {
+    flex-direction: column;
+    gap: 0px;
+    justify-content: start;
+    padding-top: 50px;
+  }
+  .footer-botton {
+    height: 80px;
+  }
+  footer {
+    height: 700px;
+  }
+  .searchContainer {
+    width: 1000px;
+  }
+  .productContainer {
+    gap: 100px;
+    margin: 80px 40px;
+  }
+}
+
+/* Desktops grandes (acima de 1280px) */
+@media (min-width: 1281px) {
+  /* Estilos específicos */
+}

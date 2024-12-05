@@ -1,0 +1,104 @@
+.title {
+  display: flex;
+  justify-content: center;
+  padding: 80px 0 80px 0;
+}
+
+.title h2 {
+  font-weight: normal;
+  font-size: 2.5rem;
+  color: #23022C;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container .carousel {
+  scroll-behavior: smooth;
+  width: 77%;
+  overflow-x: auto;
+  display: flex;
+}
+
+.container .carousel::-webkit-scrollbar {
+  display: none;
+}
+
+.container .carousel .item {
+  background-color: white;
+  border: 1px solid #E6FFFD;
+  border-radius: 16px;
+  padding: 10px;
+  width: 270px;
+  margin: 10px;
+  flex: none;
+}
+
+.container .carousel .item .image img {
+  object-fit: cover;
+  height: 280px;
+  width: 100%;
+  border-radius: 10px;
+  pointer-events: none;
+}
+
+.container .carousel .item .info {
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  height: 150px;
+  display: flex;
+}
+
+.container .carousel .item .info span {
+  border-radius: 10px;
+  text-align: center;
+  display: block;
+  color: #370843;
+  padding: 5px;
+}
+
+.container .carousel .item .info .name {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.container .carousel .item .info .oldPrice {
+  font-size: 1.1rem;
+  font-weight: bold;
+  flex-grow: 1;
+}
+
+.container .carousel .item .info .button-seeMore {
+  background-color: #E6FFFD;
+  justify-content: center;
+  border-radius: 50px;
+  align-items: center;
+  margin-bottom: 5px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  padding: 5px;
+  width: 80%;
+}
+
+.container .buttons {
+  text-align: center;
+  width: 100%;
+}
+.carousel-button {
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+  margin: 0 10px;
+}
+
+.Chevron {
+  width: 40px;
+  height: 40px;
+  color: #370843;
+}
